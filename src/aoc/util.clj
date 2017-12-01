@@ -49,6 +49,8 @@
 
 (defn str->int [s] (when s (Integer/parseInt s)))
 
+
+
 (defn numeric? [s]
   (if-let [s (seq s)]
     (let [s (if (= (first s) \-) (next s) s)
