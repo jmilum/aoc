@@ -7,11 +7,13 @@
     [clojure.data.csv :as csv]
     [clojure.string :as str]
     [clojure.math.numeric-tower :as math]
+    [clojure.math.combinatorics :as combo]
     [clojure.tools.namespace.repl :refer [refresh refresh-all]]
     [clojure.algo.generic.functor :as f]
     [criterium.core :refer [bench quick-bench]]
     [aoc.util :as util]
-    [aoc.day1 :as day1]))
+    [aoc.day1 :as day1]
+    [aoc.day2 :as day2]))
 
 (set! *warn-on-reflection* true)
 (set! *unchecked-math* true)
