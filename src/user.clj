@@ -12,8 +12,7 @@
     [clojure.algo.generic.functor :as f]
     [criterium.core :refer [bench quick-bench]]
     [aoc.util :as util]
-    [aoc.day1 :as day1]
-    [aoc.day2 :as day2]))
+    [aoc.core :as core]))
 
 (set! *warn-on-reflection* true)
 (set! *unchecked-math* true)
