@@ -1,0 +1,6 @@
+{:deps    {org.clojure/clojure            {:mvn/version "1.11.0-alpha3"}
+           org.clojure/tools.namespace    {:mvn/version "1.0.0"}}
+
+ :aliases {:cursive {:main-opts ["-e" "(setup-cursive-repl)" "-r"]}}
+
+ :paths   ["src" "resources" "dev"]}

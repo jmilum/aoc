@@ -1,0 +1,2 @@
+{ :paths   ["src" "." "resources"]
+  :deps {rolling-stones/rolling-stones {:mvn/version "1.0.2"}}}
